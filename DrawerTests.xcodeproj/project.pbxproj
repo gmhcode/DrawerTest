@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		901B56D8234D079F009C268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B56D7234D079F009C268F /* AppDelegate.swift */; };
-		901B56DA234D079F009C268F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B56D9234D079F009C268F /* SceneDelegate.swift */; };
-		901B56DC234D079F009C268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B56DB234D079F009C268F /* ViewController.swift */; };
 		901B56DF234D079F009C268F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901B56DD234D079F009C268F /* Main.storyboard */; };
 		901B56E1234D07A1009C268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901B56E0234D07A1009C268F /* Assets.xcassets */; };
 		901B56E4234D07A1009C268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901B56E2234D07A1009C268F /* LaunchScreen.storyboard */; };
+		901B56EC234D0984009C268F /* ParksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B56EB234D0984009C268F /* ParksViewController.swift */; };
+		901B56F0234D17DC009C268F /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901B56EF234D17DC009C268F /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		901B56D4234D079F009C268F /* DrawerTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		901B56D7234D079F009C268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		901B56D9234D079F009C268F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		901B56DB234D079F009C268F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		901B56DE234D079F009C268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901B56E0234D07A1009C268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901B56E3234D07A1009C268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901B56E5234D07A1009C268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901B56EB234D0984009C268F /* ParksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksViewController.swift; sourceTree = "<group>"; };
+		901B56EF234D17DC009C268F /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				901B56D7234D079F009C268F /* AppDelegate.swift */,
-				901B56D9234D079F009C268F /* SceneDelegate.swift */,
-				901B56DB234D079F009C268F /* ViewController.swift */,
 				901B56DD234D079F009C268F /* Main.storyboard */,
 				901B56E0234D07A1009C268F /* Assets.xcassets */,
 				901B56E2234D07A1009C268F /* LaunchScreen.storyboard */,
 				901B56E5234D07A1009C268F /* Info.plist */,
+				901B56EB234D0984009C268F /* ParksViewController.swift */,
+				901B56EF234D17DC009C268F /* NewViewController.swift */,
 			);
 			path = DrawerTests;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901B56DC234D079F009C268F /* ViewController.swift in Sources */,
+				901B56F0234D17DC009C268F /* NewViewController.swift in Sources */,
+				901B56EC234D0984009C268F /* ParksViewController.swift in Sources */,
 				901B56D8234D079F009C268F /* AppDelegate.swift in Sources */,
-				901B56DA234D079F009C268F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57FTCZV5HS;
+				DEVELOPMENT_TEAM = 2AAW26A9PC;
 				INFOPLIST_FILE = DrawerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,8 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57FTCZV5HS;
+				DEVELOPMENT_TEAM = 2AAW26A9PC;
 				INFOPLIST_FILE = DrawerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
